@@ -1,47 +1,71 @@
-# AI-Driven-Emotional-Sentiments-Analysis
-This project leverages machine learning to analyze and classify the emotional sentiment of textual data. The goal is to accurately identify and categorize emotions, aiding applications in customer feedback analysis, social media sentiment analysis, and mental health monitoring.
+# Emotion Inference Engine
 
+A Multi-Class Emotion Classification system built using Natural Language Processing (NLP) and Supervised Machine Learning.
 
-# Emotion Detection in Text using Natural Language Processing
+This project analyzes textual input and predicts the underlying emotion using TF-IDF feature extraction and two supervised learning models: Logistic Regression and Naive Bayes.
 
-<img src=".\project\index.png"/>
+---
 
+## 🚀 Features
 
-<br>
+- Text preprocessing and cleaning
+- TF-IDF feature extraction
+- Logistic Regression classifier
+- Naive Bayes classifier
+- Model performance comparison
+- Emotion probability visualization
+- Interactive Streamlit dashboard
 
-# Introduction
-Emotion detection in text data involves identifying the emotions expressed in textual data. This can be a challenging task since emotions are often expressed in complex and subtle ways. Natural language processing (NLP) techniques can be used to analyze text data and identify the emotions expressed in it.
+---
 
-The aim of this project is to develop a model that uses NLP techniques to accurately detect emotions in text data. The model can be used for sentiment analysis, customer feedback analysis, and social media monitoring. The model is trained on a dataset of text data that has been labeled with the corresponding emotions expressed in it.
+## 📊 Dataset
 
-# Dataset
-The <a src="./data/">dataset</a> used for this project contains text data labeled with one of eight emotions: anger, disgust, fear, joy, neutral, sadness, shame and surprise. The dataset contains a total of 107103 rows.
+The dataset contains labeled text samples across multiple emotion categories such as:
 
-# Methodology
-- The methodology used for this project involves the following steps:
-1. Preprocessing the text data: The text data is preprocessed by removing stop words, punctuation, user handles and converting all text to lowercase. 
-2. Model training: A machine learning model is trained on the extracted features to predict the emotions expressed in the text data. The model used for this project is a Logistic Regression and MultinomialNB.
-3. Model evaluation: The trained model is evaluated on the test data to measure its accuracy in detecting emotions in text data.
+- Anger
+- Disgust
+- Fear
+- Joy
+- Neutral
+- Sadness
+- Shame
+- Surprise
 
-4. # Results
-The Logistic Regression achieved an accuracy of 99% on the data.
+---
 
-# Installation
-1. Clone the repository to your local machine:
+## 🛠 Tech Stack
 
-https://github.com/Kamal-Singh22/AI-Driven-Emotional-Sentiments-Analysis.git
+- Python
+- Scikit-Learn
+- Pandas
+- Streamlit
+- Natural Language Processing (NLP)
 
+---
 
-2. Install the 'requirements.txt':
+## ▶️ Installation & Run
 
+Clone the repository:
+
+```
+git clone https://github.com/tanushka8/Emotion-Inference-Engine.git
+```
+
+Install dependencies:
+
+```
 pip install -r requirements.txt
+```
 
+Run the application:
 
-3. To run this project :
+```
+streamlit run final.py
+```
 
-streamlit run app.py
+---
 
+## 🎯 Project Objective
 
-4. It'll automatically open the Streamlit app in your default browser.
-
+To design and implement a statistical NLP-based emotion inference system capable of multi-class classification of textual emotional tone.
 
